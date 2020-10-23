@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Registration title="TestCasesList">
+
+	
+<TestCase id="1" title="RegistrationData" description = "Validation triggered for Email Address">
+
+<TestCaseData complete="true">
+<FirstName>TestUser</FirstName>
+<LastName>AutomationTest</LastName>
+<Gender>1</Gender>
+<AssignedSex>2</AssignedSex>
+<PartnerSex>2</PartnerSex>
+<Age>18</Age>
+<Ethnicity>British</Ethnicity>
+<Address1>TestAddress1</Address1>
+<TownCity>TestTownCity</TownCity>
+<County>TestCounty</County>
+<PostCode>PX11PX</PostCode>
+<EmailAddress></EmailAddress>
+<MobileNumber>07123456789</MobileNumber>
+<ContactPreference>SMS</ContactPreference>
+<Password>TestPassword</Password>
+<PasswordConfirm>TestPassword</PasswordConfirm>
+<ResearchConsent>Yes</ResearchConsent>
+<Terms>Yes</Terms>
+<Expected_Results_Valication>EmailAddress</Expected_Results_Valication>
+</TestCaseData>
+
+</TestCase>
+
+</Registration>
