@@ -13,6 +13,7 @@ public class FiddlePage extends AbstractPage {
     public static final int TIMEOUT_SECONDS = 10;
 
 
+
     public FiddlePage(WebDriver driver) {
         super(driver);
     }
@@ -41,7 +42,7 @@ public class FiddlePage extends AbstractPage {
     }
 
     public void clearTextBoxAndSetValue(By locator, String text) {
-        WebElement textbox = driverWait(10).until(ExpectedConditions.elementToBeClickable(locator));
+        WebElement textbox = driverWait(TIMEOUT_SECONDS).until(ExpectedConditions.elementToBeClickable(locator));
         if (text instanceof String) {
             try {
                 textbox.clear();
