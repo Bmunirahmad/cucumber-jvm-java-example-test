@@ -93,18 +93,5 @@ public class FiddlePage extends AbstractPage {
         }
     }
 
-
-    public boolean waitForModalVisible() {
-        boolean displayed = false;
-        try {
-            if (driverWait(10).until(ExpectedConditions.visibilityOfElementLocated(BY_MODALLOGINBTN)).isDisplayed()){
-                displayed = true;
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return displayed;
-
-    }
 }
 

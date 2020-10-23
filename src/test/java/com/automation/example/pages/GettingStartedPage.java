@@ -30,10 +30,6 @@ public class GettingStartedPage extends AbstractPage {
         return displayed;
     }
 
-    public void submitButton(By locator){
-        WebElement button = driverWait(TIMEOUT_SECONDS).until(ExpectedConditions.elementToBeClickable(locator));
-        button.click();
-    }
 
 }
 
