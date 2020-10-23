@@ -78,6 +78,18 @@ public class FiddlePage extends AbstractPage {
         return displayed;
     }
 
+    public boolean isElementInvisible(By locator) {
+        boolean displayed = false;
+        try {
+            if (driverWait(TIMEOUT_SECONDS).until(ExpectedConditions.invisibilityOfElementLocated(locator))) {
+                displayed = true;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return displayed;
+    }
+
 
 
     public void WaitForAjax() throws InterruptedException

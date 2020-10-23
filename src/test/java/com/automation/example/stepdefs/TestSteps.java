@@ -101,7 +101,8 @@ public class TestSteps {
             fiddlePage.isElementDisplayed(fiddlePage.BY_OPTIONSBAR);
             fiddlePage.isElementDisplayed(fiddlePage.BY_OPTIONSBARCHEVRON);
             fiddlePage.clickButton(fiddlePage.BY_OPTIONSBARCHEVRON);
-            Assert.assertFalse(fiddlePage.isElementDisplayed(fiddlePage.BY_OPTIONSBARCHEVRON));
+            fiddlePage.WaitForAjax();
+            Assert.assertTrue(fiddlePage.isElementInvisible(fiddlePage.BY_OPTIONSBARCHEVRON));
 
 
         }

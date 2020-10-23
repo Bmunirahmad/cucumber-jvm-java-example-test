@@ -31,16 +31,16 @@ Feature: IHSMarkit PCM
       | npple | Third Validation LMNOP  |
       | Opple | Third Validation LMNOP  |
       | Pxxle | Third Validation LMNOP  |
-      | Qpple | Fourth Validation QRSTU |
-      | Rpple | Fourth Validation QRSTU |
-      | Spple | Fourth Validation QRSTU |
-      | Tpple | Fourth Validation QRSTU |
-      | upple | Fourth Validation QRSTU |
-      | Vpple | Fifth Validation VWXYZ  |
-      | Wpple | Fifth Validation VWXYZ  |
-      | Xpple | Fifth Validation VWXYZ  |
-      | Ypple | Fifth Validation VWXYZ  |
-      | Zpple | Fifth Validation VWXYZ  |
+#      | Qpple | Fourth Validation QRSTU |
+#      | Rpple | Fourth Validation QRSTU |
+#      | Spple | Fourth Validation QRSTU |
+#      | Tpple | Fourth Validation QRSTU |
+#      | upple | Fourth Validation QRSTU |
+#      | Vpple | Fifth Validation VWXYZ  |
+#      | Wpple | Fifth Validation VWXYZ  |
+#      | Xpple | Fifth Validation VWXYZ  |
+#      | Ypple | Fifth Validation VWXYZ  |
+#      | Zpple | Fifth Validation VWXYZ  |
 
 
 
