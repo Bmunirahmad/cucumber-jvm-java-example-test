@@ -1,5 +1,3 @@
-@web @register
-
 Feature: IHSMarkit PCM
 
   Background: User Has already navigated to the site under test
