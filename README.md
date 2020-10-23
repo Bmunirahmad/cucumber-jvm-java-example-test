@@ -1,6 +1,6 @@
 # cucumber-jvm-java-test
 This is an example BDD test automation Project for Java using the Cucumber-JVM framework.
-It contains email validation for https://dotnetfiddle.net/
+It contains validation for https://dotnetfiddle.net/
 
 ### Purpose
 This project was developed by Babir Munir 
