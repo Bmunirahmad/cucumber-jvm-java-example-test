@@ -48,7 +48,7 @@ public class TestSteps {
     @Before(order = 3)
     public void initFiddlePage() {
         fiddlePage = new FiddlePage(driver);
-        fiddlePage.navigateToRegisterPage();
+        fiddlePage.navigateToFiddlePage();
     }
 
     @After()

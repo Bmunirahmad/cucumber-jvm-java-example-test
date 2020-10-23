@@ -36,7 +36,7 @@ public class FiddlePage extends AbstractPage {
     public static final By BY_NUNITVERSION = By.xpath("//body/ul[@id='menu']/li[1]/ul[1]/li[1]/a[1]");
     public static final By BY_ADDEDPACKAGE = By.xpath("//div[contains(text(),'NUnit')]");
 
-    public void navigateToRegisterPage() {
+    public void navigateToFiddlePage() {
         getDriver().navigate().to(FIDDLE_URL);
     }
 
